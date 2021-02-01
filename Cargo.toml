@@ -1,8 +1,8 @@
 [package]
-name = "e01_basic_ping_bot"
-version = "0.1.0"
-authors = ["my name <my@email.address>"]
-edition = "2018"
+name = "RS-DiscordBot"
+version = "0.0.1a"
+authors = ["Trix <dtwatson443@gmail.com>"]
+edition = "2021"
 
 [dependencies]
 serenity = { path = "../../", default-features = false, features = ["client", "gateway", "rustls_backend", "model"] }
